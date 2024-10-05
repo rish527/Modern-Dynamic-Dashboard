@@ -1,0 +1,10 @@
+.indicator{
+    box-shadow: 4px 4px 6px rgba(0.1, 0.1, 0.1, 0.1);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .3rem;
+    width: 4rem;
+    gap: .2rem;
+}

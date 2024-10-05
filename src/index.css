@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.gradiant-card{
+  background: linear-gradient(to bottom right, #51f9ff, #ffffff 30%,#ffffff 40%, #184eff);
+}
+
+.dashboard-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #f5f5f5;
+}
+
+.left-panel {
+  flex: 2;
+  padding: 40px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.right-panel {
+  display: flex;
+  flex-direction: column;
+  width: 28rem;
+  padding: 40px;
+  border-left:solid 1px grey;
+}
+
+.profile-section {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+
+.profile-status {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.task-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.task-card {
+  width: 48%;
+  padding: 15px;
+  background-color: #f0f4f8;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.trackers-section {
+  margin-bottom: 30px;
+}
+
+.trackers-icons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.focus-chart-section {
+  margin-bottom: 30px;
+}
+
+.meetings-section {
+  margin-bottom: 30px;
+}
+
+.meetings-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.developed-areas-section p {
+  margin-bottom: 5px;
+}
+
+
